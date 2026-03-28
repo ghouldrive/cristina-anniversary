@@ -52,7 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const text = `Cristina... I cannot stop thinking about you.
 
-You are not temporary to me. You are the eternal. I want our love to reach the kinds of heights that make us absurd. Cosmic. Extraordinary. Beyond. I love you to the point where even my pain itself wants to stay longer, so it could also  witness your perfection.
+You are not temporary to me. You are the eternal. I love you to the point where even my pain itself wants to stay longer, so it could also  witness your perfection.
+
+I want our love to reach the kinds of heights that make us absurd. Cosmic. Extraordinary. Beyond.
 
 I want to walk this path with you.
 
