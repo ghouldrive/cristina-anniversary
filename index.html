@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Cristina ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="assets/music.mp3" type="audio/mp3">
+</audio>
+
+<!-- PAGE 1 -->
+<div id="page1" class="page active">
+    <div class="overlay">
+        <p class="intro-text">
+            So, you thought I didn’t have anything planned for our first month eh?<br>
+            It’s not much at all… but it’s yours.
+        </p>
+        <button id="loveBtn">I love you</button>
+    </div>
+</div>
+
+<div id="floating-container"></div>
+<div id="hearts-container"></div>
+
+<!-- PAGE 2 -->
+<div id="page2" class="page">
+    <div class="envelope-container">
+        <div class="envelope" id="envelope">
+            <div class="flap"></div>
+            <div class="body"></div>
+        </div>
+        <p class="envelope-text">
+            Happy first month anniversary, My Cristina.<br>Read me.
+        </p>
+    </div>
+</div>
+
+<!-- PAGE 3 -->
+<div id="page3" class="page">
+    <div class="letter">
+        <p id="finalText"></p>
+    </div>
+</div>
+
+<!-- FINAL PAGE -->
+<div id="page4" class="page">
+    <div class="final-choice">
+        <button class="rune-btn" onclick="enterVoid()">
+            Accept Love to the Absolute
+        </button>
+    </div>
+</div>
+
+<div id="voidScreen">
+    <p id="voidText">
+        .....you are mine now.<br>
+        Nothing else to look at.<br>
+        You’re mine. All mine.
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
