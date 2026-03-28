@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         for (let i = 0; i < 50; i++) {
             let heart = document.createElement("img");
-            heart.src = "assets/heart.png";
+            heart.src = "images/heart.png"; // <-- fixed path
             heart.className = "heart";
             heart.style.left = Math.random() * 100 + "%";
             heartsContainer.appendChild(heart);
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function spawnAnimals() {
         setInterval(() => {
             let img = document.createElement("img");
-            img.src = Math.random() > 0.5 ? "assets/cat.png" : "assets/bunny.png";
+            img.src = Math.random() > 0.5 ? "images/cat.png" : "images/bunny.png"; // <-- fixed path
             img.className = "float";
             img.style.left = Math.random() * 100 + "%";
             floating.appendChild(img);
