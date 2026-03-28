@@ -75,7 +75,7 @@ Ti amo, mio angelo. Lo sono tuo, per sempre. ❤️`;
                 setTimeout(() => {
                     page3.classList.remove("active");
                     page4.classList.add("active");
-                }, 1500);
+                }, 5500);
             }
         }, 30);
     }
