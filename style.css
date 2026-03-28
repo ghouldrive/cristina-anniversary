@@ -15,8 +15,15 @@ body, html {
 }
 
 .active { display: block; }
-
-#page1 { background: url('assets/ezlux.gif') center/cover; }
+@keyframes slowZoom {
+    from {transform: scale(1); }
+    to { tranform: scale(1.05) }
+}
+#page1 {
+    background: url('assets/ezlux.jpg') center/cover;
+    animation: slowZoom 10s ease-in-out infinite
+alternate;
+}
 #page2 { background: url('assets/gutscasca.jpg') center/cover; }
 #page3 { background: url('assets/gael.jpg') center/cover; }
 #page4 { background: black; }
