@@ -47,9 +47,9 @@ button {
 
 .heart {
     position: absolute;
-    width: 75px;
-    height: 75px;
-    animation: fall 2s linear forwards;
+    width: 200px;
+    height: 200px;
+    animation: fall 3s linear forwards;
 }
 
 @keyframes fall {
