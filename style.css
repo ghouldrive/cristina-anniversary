@@ -61,6 +61,8 @@ button {
     position: absolute;
     width: 40px;
     animation: floatUp 10s linear infinite;
+    pointer-events: none;
+    z-index: 100;
 }
 
 @keyframes floatUp {
