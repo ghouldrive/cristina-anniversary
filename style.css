@@ -15,17 +15,18 @@ body, html {
 }
 
 .active { display: block; }
+
 @keyframes slowZoom {
-    from {transform: scale(1); }
-    to { tranform: scale(1.05) }
+    from { transform: scale(1); }
+    to { transform: scale(1.05); } /* fixed typo: tranform → transform */
 }
+
 #page1 {
-    background: url('assets/ezlux.jpg') center/cover;
-    animation: slowZoom 10s ease-in-out infinite
-alternate;
+    background: url('images/ezlux.jpg') center/cover; /* fixed path */
+    animation: slowZoom 10s ease-in-out infinite alternate;
 }
-#page2 { background: url('assets/gutscasca.jpg') center/cover; }
-#page3 { background: url('assets/gael.jpg') center/cover; }
+#page2 { background: url('images/gutscasca.jpg') center/cover; } /* fixed path */
+#page3 { background: url('images/gael.jpg') center/cover; } /* fixed path */
 #page4 { background: black; }
 
 .overlay {
